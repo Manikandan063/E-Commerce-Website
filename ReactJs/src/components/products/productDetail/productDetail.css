@@ -1,0 +1,289 @@
+/* .productDetailImage{
+    width:450px;
+    height:450px;
+    transition: transform .9s;
+}
+.productDetailImage:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+.productImageCol{
+    padding: 10px !important;
+    overflow:hidden;
+}
+.productImageContainer{
+    padding: 10px !important;
+}
+.offerText{
+    color: orange;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.RateText{
+    color: gray;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.priceText{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.TagCard{
+    color:black;
+    font-size: 15px;
+
+}
+.TagPrice{
+    color: orangered;
+    font-weight: 600;
+}
+.TagSave{
+    color: green;
+    font-weight: 600;
+}
+.TagCode{
+    color: black;
+    font-weight: 600;
+}
+.productName{
+    font-weight: 400;
+}
+.productDes{
+    color: gray;
+    font-weight: 100;
+}
+.includeTax{
+    color: green;
+    font-weight: 400;
+}
+.productSizeButton{
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 0.5px solid black;
+    background: none !important;
+    color: black !important;
+}
+.productSizeButton:hover{
+    background-color: orange !important;
+    color: white !important;
+    border: 1px solid orange !important;
+}
+.productSizeButton:focus{
+    border: 1px solid orange !important;
+    background-color: orange !important;
+    color: white !important;
+}
+.AddCartButton{
+    width:100% !important;
+    height: 50px;
+    color:white !important;
+    background-color:#ff527b !important;
+}
+.addText{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.WhislistButton{
+    width:100% !important;
+    height: 50px;
+    background:none !important;
+    color: black !important;
+}
+.addIcon{
+    color:white !important;
+}
+.specificationCard{
+    border-bottom: 1px solid black !important;
+}
+.specificationContent{
+    color:black;
+    font-weight: 600;
+}
+.specificationContents{
+    color:grey;
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+
+/* Product Detail Image */
+.productDetailImage {
+    width: 450px;
+    height: 450px;
+    transition: transform 0.6s ease-in-out;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.productDetailImage:hover {
+    transform: scale(1.2) rotate(2deg);
+}
+
+/* Product Image Containers */
+.productImageCol {
+    padding: 10px !important;
+    overflow: hidden;
+}
+
+.productImageContainer {
+    padding: 10px !important;
+    text-align: center;
+}
+
+/* Offer & Pricing Text */
+.offerText {
+    color: #ff6600;
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.RateText {
+    color: #777;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.priceText {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Tag Styling */
+.TagCard {
+    color: #333;
+    font-size: 16px;
+}
+
+.TagPrice {
+    color: #ff4500;
+    font-weight: 700;
+}
+
+.TagSave {
+    color: #28a745;
+    font-weight: 700;
+}
+
+.TagCode {
+    color: #000;
+    font-weight: 600;
+}
+
+/* Product Description */
+.productName {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.productDes {
+    color: #666;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+/* Tax Included */
+.includeTax {
+    color: #28a745;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Product Size Button */
+.productSizeButton {
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid #444;
+    background: #fff !important;
+    color: #000 !important;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.productSizeButton:hover {
+    background: linear-gradient(135deg, #ff7f50, #ff4500) !important;
+    color: white !important;
+    border: 1px solid #ff4500 !important;
+    transform: scale(1.1);
+}
+
+.productSizeButton:focus {
+    border: 1px solid #ff4500 !important;
+    background: linear-gradient(135deg, #ff7f50, #ff4500) !important;
+    color: white !important;
+}
+
+/* Add to Cart Button */
+.AddCartButton {
+    width: 100% !important;
+    height: 50px;
+    color: white !important;
+    background: linear-gradient(135deg, #eeba1c, #f0bc1f) !important;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.AddCartButton:hover {
+    background: linear-gradient(135deg, #efba1d, #efb70f) !important;
+    transform: scale(1.05);
+}
+
+/* Wishlist Button */
+.WhislistButton {
+    width: 100% !important;
+    height: 50px;
+    background: none !important;
+    color: black !important;
+    border: 1px solid #444;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.WhislistButton:hover {
+    background: #f0bc1f!important;
+    color: #fff !important;
+    transform: scale(1.05);
+}
+
+/* Add Icon */
+.addIcon {
+    color: white !important;
+}
+
+/* Specification Cards */
+.specificationCard {
+    border-bottom: 2px solid #444 !important;
+    padding: 10px 0;
+}
+
+.specificationContent {
+    color: #222;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.specificationContents {
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.specificationContents:hover {
+    color: #007bff;
+}
